@@ -1,0 +1,10 @@
+REBASE TEST:
+
+- dodac commita na mastera
+- zrobić brancha
+- dopisac do brancha cos
+- dodać 2 commity na mastera
+- rebase brancha
+- dodać commita do brancha
+- merge brancha do mastera
+- sprawdzić czy widać dwa razy jakies commity
