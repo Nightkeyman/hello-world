@@ -9,7 +9,7 @@
 - git push origin <nam of branch> -f 
 ##### where "-f" means force push (use very carefully)
 
-## Handling of branches
+## Branches handling
 
 #### Creating new branches
 - git checkout -b <name_of_new_branch>
@@ -21,28 +21,28 @@
 #### Set upstream branch
 - git branch --set-upstream-to=origin/<name_of_remote_branch>
 
-
 ## Status
 - git status
 - git log -n (where n is number of commits that you'd like to see)
 - git diff
 
-
 ## Reseting
+Deleting some commits on a branch:
 - git reset --hard HEAD~n (where n is number of commits that you'd like to delete)
 - git reset --hard origin/master
+When you want to clear unstaged files. Clears all untracked directories (-d) with force (-f). Usefull to delete all build products.
 - git clean -df
 
+## Unstaging files
+- git rm --cache <file_name>
 
 ## Cherry-picking
 Takes commit from other branch to HEAD of current branch.
 - git checkout <name_of_branch_where_you_want_to_add_commit>
 - git cherry-pick <commit_sha_from_other_branch>
 
-
 ## Rebasing/merging
 Rebase:
 - git checkout <name_of_branch>
 - git rebase master
 If you want to push to remote branch once again, you have to use force push.
-
