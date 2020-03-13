@@ -1,12 +1,12 @@
 # Useful commands
 
 ## Pushing branches to remote repo
-- git push origin <nam of branch>
+- git push origin <name of branch>
 
 ## Pushing few times same commit
-- git push origin <nam of branch>
+- git push origin <name of branch>
 - git commit --amend
-- git push origin <nam of branch> -f 
+- git push origin <name of branch> -f 
 ##### where "-f" means force push (use very carefully)
 
 ## Branches handling
@@ -16,7 +16,7 @@
 
 #### Deleting branches
 - git checkout -d <name_of_branch_to_delete> (safe)
-- git checkout -D <name_of_branch_to_delete> (not safe, but )
+- git checkout -D <name_of_branch_to_delete> (not safe, but always works)
 
 #### Set upstream branch
 - git branch --set-upstream-to=origin/<name_of_remote_branch>
