@@ -5,7 +5,7 @@
 
 ## Pushing few times same commit
 ##### - git push origin < name of branch >
-* ^first time pushing specific branch*
+*^first time pushing a branch*
 ##### - git commit --amend
 *Making some changes to the same commit which was already pushed, where --amend means commiting additional content to last commit.*
 ##### - git push origin < name of branch > -f 
@@ -45,6 +45,7 @@ Deleting latest commits on a branch:
 ##### - git reset --hard origin/master
 *When you want to clear unstaged files. Clears all untracked directories (-d) with force (-f). Usefull to delete all build products.*
 ##### - git clean -df
+*Remove untracked files from the working tree."
 
 ## Deleting files from git repo
 ##### - git rm <file_name>
